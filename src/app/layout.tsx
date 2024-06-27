@@ -23,7 +23,9 @@ export default function RootLayout({
             <h1>navbar</h1>
             <main className="flex">
               <MenuBar/>
-              {children}
+              <section className="ml-[36px] mt-[32px]">
+                {children}
+              </section>
             </main>
             <h1>footer</h1>
           </div>

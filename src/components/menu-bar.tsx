@@ -8,13 +8,17 @@ export function MenuBar(){
                 <div className="w-[32px] m-auto">
                     <div className="flex flex-col  items-center gap-[75px]">
                         <div className="pt-[35px]">
-                            <Image
-                                className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                                src="./../svg/video-logo.svg"
-                                alt="movies logo Logo"
-                                width={32}
-                                height={25}
-                            />
+                            <Link href={'/'}>
+                                <button>
+                                <Image
+                                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                                    src="./../svg/video-logo.svg"
+                                    alt="movies logo Logo"
+                                    width={32}
+                                    height={25}
+                                />
+                                </button>
+                            </Link>
                         </div>
                         <div className="flex flex-col gap-[40px]">
                             <Link href={'/'}>
@@ -50,7 +54,7 @@ export function MenuBar(){
                                 />
                                 </button>
                             </Link>
-                            <Link href={'/'}>
+                            <Link href={'/bookmarked'}>
                                 <button>
                                 <Image
                                     className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
