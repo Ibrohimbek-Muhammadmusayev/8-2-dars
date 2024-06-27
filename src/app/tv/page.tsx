@@ -1,4 +1,4 @@
-export default function movies(){
+export default function tv(){
     return(
         <div>
             <h1 className="text-white">Tv</h1>
