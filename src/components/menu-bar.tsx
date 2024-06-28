@@ -11,7 +11,6 @@ export function MenuBar(){
                             <Link href={'/'}>
                                 <button>
                                 <Image
-                                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                                     src="./../svg/video-logo.svg"
                                     alt="movies logo Logo"
                                     width={32}
@@ -24,7 +23,6 @@ export function MenuBar(){
                             <Link href={'/'}>
                                 <button>
                                 <Image
-                                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                                     src="./../svg/Shape.svg"
                                     alt="movies logo Logo"
                                     width={20}
@@ -35,7 +33,6 @@ export function MenuBar(){
                             <Link href={'/movies'}>
                                 <button>
                                 <Image
-                                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                                     src="./../svg/Movies.svg"
                                     alt="movies logo Logo"
                                     width={20}
@@ -46,7 +43,6 @@ export function MenuBar(){
                             <Link href={'/tv'}>
                                 <button>
                                 <Image
-                                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                                     src="./../svg/tv.svg"
                                     alt="movies logo Logo"
                                     width={20}
@@ -57,7 +53,6 @@ export function MenuBar(){
                             <Link href={'/bookmarked'}>
                                 <button>
                                 <Image
-                                    className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                                     src="./../svg/path.svg"
                                     alt="movies logo Logo"
                                     width={20}
